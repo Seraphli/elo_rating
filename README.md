@@ -1,6 +1,6 @@
 # Elo Rating System
 
-A elo rating system, providing a rating server and clients based on thrift.
+An elo rating system, providing a rating server and clients based on thrift.
 
 ## Usage
 
