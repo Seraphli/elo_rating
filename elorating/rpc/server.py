@@ -50,6 +50,7 @@ class ServerProcess(mp.Process):
 
         rpc_server = TServer.TThreadPoolServer(processor, transport, tfactory,
                                                pfactory)
+        rpc_server.setNumThreads(100)
 
         print('Starting the rpc at', self.host, ':', constants.PORT)
         try:
